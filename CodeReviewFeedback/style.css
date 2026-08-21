@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.app-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 50px;
+    font-size: 16px;
+    color: #01b126;
+    background-color: #000000;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    margin: 50px;
+    gap: 30px;
+    padding: 20px;
+}
+.single-card{
+    display: flex;
+    height: 280px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #a1a0a0;
+    border: none;
+    border-radius: 10px;
+}
+.card-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.card-btn button {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.card-btn button:active {
+    color: #0C0C0C;
+}
+.status-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid #0C0C0C;
+    width: 200px;
+}
+.add-btn{
+    font-size: 50px;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    background-color: #a1a0a0;
+}
+.add-btn:active{
+    color: #000000;
+}

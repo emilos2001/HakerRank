@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.App-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font: inherit;
+    padding: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    justify-content: center;
+    background-color: #000;
+    color: #01b126;
+}
+.App-body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    gap: 1.5rem;
+}
+.small-button {
+    background-color: #01b126;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.table{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+.table th, .table td {
+    padding: 1.25rem 2.5rem;
+ }
