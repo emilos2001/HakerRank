@@ -3,3 +3,4 @@ Code Review Feddback - https://www.hackerrank.com/challenges/code-review-feedbac
 show in procent, how bad or good is every card review, depence on downvotes upvotes.
 Sorting Article - https://www.hackerrank.com/challenges/react-article-sorting/problem?isFullScreen=true
 Validation Form - https://www.hackerrank.com/challenges/employee-validation/problem?isFullScreen=true , challange call Employee validation and just rename
+Blog post - https://www.hackerrank.com/challenges/blog-post/problem?isFullScreen=true
