@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.App-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0C0C0C;
+    font-size: 15px;
+    color: #01b126;
+    font-weight: bold;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3rem;
+}
+.App h1{
+    font-weight: inherit;
+    font-size: 4rem;
+}
+.App-inputs{
+    padding: 1rem;
+}
+.App-inputs input{
+    margin: 0.5rem;
+}
+.error-message{
+    color: #ff0000;
+}
+
+.table{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    border: 1px #0C0C0C solid;
+}
+.table th, .table td {
+    padding: 0.5rem 1rem;
+    border-right: 1px solid #0C0C0C;
+    border-bottom: 1px solid #0C0C0C;
+}
